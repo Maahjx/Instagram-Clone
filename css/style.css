@@ -1,168 +1,141 @@
+/*PRINCIPAL*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'roboto';
     font-size: 14px
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(243, 243, 243);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+body { 
+    background: #FAFAFA;
 }
 
-.instagram-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    width: 60%;
-    height: 100vh;
+a {
+    cursor: pointer;
 }
-
-.instagram-phone{
+.container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    justify-content: space-between;
-}
-
-.instagram-phone img{
-    height: 500px;
-}
-
-.instagram-continue{
-    display: flex;
-    align-items: center;
     justify-content: space-around;
-    flex-direction: column;
-    width: 100%;
-    min-height: 34rem;
-    margin-top: 60%;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.group{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-    width: 100%;
-    padding: 1.3rem 0;
+.grid-box {
+    display: grid;
+    grid-template-areas: "image card" "footer footer";
+    grid-row: auto;
+    grid-column: auto;
+}
+/*ESTILIZANDO IMAGEM PRINCIPAL E GIF DA IMAGEM*/
+.image {
+    grid-area: image;
+}
+
+.gif {
+    width: 267.15px;
+    height: 478.84px;
+    margin-left: -285.4px;
+    margin-bottom: 69.9px;
+}
+
+/*ESTILIZANDO CARDS E SESSÃO DE LOGIN*/
+.card {
+    grid-area: card;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.sub-card {
+    text-align: center;
+    width: 350px;
+    height: 339px;
+    display: block;
     border: 1px solid lightgray;
 }
 
-.group:nth-child(1){
-    min-height: 19rem;
+.sub-card-2 {
+    width: 350px;
+    height: 70px;
+    display: block;
+    text-align: center;
+    border: 1px solid lightgray;
+
+    vertical-align: middle;
+    display: table-cell;
 }
 
-.instagram-logo{
-    width: 175px;
-    height: 65px;
+.get-app {
+    margin-top: 20px;
+    display: block;
+    width: 350px;
+    height: auto;
+    text-align: center;
 }
 
-.profile-photo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
+.logo {
+    margin: 22px 86.5px 12px;
 }
 
-.profile-photo img{
-    height: 6rem;
+.profile {
+    margin: 20px;
 }
 
-.instagram-login{
-    background-color: #0095f6;
-    color: white;
-    padding: 8px;
-    border-radius: 4px;
-    margin-top: 30px;
-}
-
-.instagram-logout{
-    color: #0095f6;
-    margin-top: 1rem; 
-}
-
-.not-account{
-    color: rgb(150,160,160);
-}
-
-.link-blue{
-    color: #0095f6;
-}
-
-.get-the-app{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-    padding: 1.3rem 0;
-}
-
-.dowload{
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1rem;
-    margin-right: 20%;
-}
-
-.app-dowload{
-    height: 3rem;
-    width: 10rem;
-    background-size: cover;
-    margin-left: 30px
-}
-
-.app-dowload:nth-child(1){
-    background-image: url('/image/botao-baixar-na-apple-store.png');
-}
-
-.app-dowload:nth-child(2){
-    background-image: url('/image/baixar-na-google-play.png');
-}
-
-.botao-1{
-    width: 150px;
-}
-
-.botao-2{
-    width: 155px;
-}
-
-.row{
-    justify-content: center;
-}
-
-/* media queries */
-
-@media (max-width: 1024px) {
-    .instagram-phone{
-        display: none;
-    }
-
-    .instagram-continue{
-        margin-top: -1px;
-    }
-}
-
-@media (max-width: 650px){
-    .instagram-wrapper {
-        width: 90%;
-    }
+.btn {
+    width: 204.2px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 40px;
     
-    .instagram-continue{
-        width: 100%;
-    }
+    color: white;
+    font-weight: medium;
+    background-color: #3897F0;
+
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    cursor: pointer;
+}
+
+.label {
+    color: #3897F0;
+}
+
+.image-get {
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+
+/*ESTILIZANDO O RODAPÉ DO SITE*/
+.footer {
+    grid-area: footer;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.footer-item {
+    color: #8E8E8E;
+    padding-left: 2px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.select {
+    font-family: 'roboto';
+    color: #8e8e8e;
+    border: none;
+    outline: none;
 }

@@ -1,0 +1,411 @@
+/*RESPONSIVIDADE MOTO G4*/
+@media (max-width: 360px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        text-align: center;
+    }
+
+    .card {
+        margin-left: 0px;
+        margin-top: -20px;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 10px 0;
+
+    }
+
+    .sub-card {
+        width: 300px;
+    }
+
+    .sub-card-2 {
+        width: 300px;
+    }
+
+    .get-app {
+        width: 300px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+/*RESPONSIVIDADE IPAD MINI*/
+@media (min-width:768px) AND (max-width:768px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-right: 120px;
+    }
+
+    .footer {
+        margin-top: 150px;
+    }
+
+}
+
+/*RESPONSIVIDADE PIXEL 2*/
+@media (min-width: 411px) AND (max-width:411px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-left: 0;
+    }
+
+    .footer {
+        display: none;
+    }
+
+
+}
+/*RESPONSIVIDADE PIXEL 2 XL*/
+@media (min-width: 411px) AND (max-width:411px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-left: 0;
+    }
+
+    .footer {
+        display: none;
+    }
+
+}
+/*RESPONSIVIDADE IPHONE 5/SE*/
+@media (min-width: 320px) AND (max-width: 320px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-left: 0;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .sub-card {
+        width: 250px;
+    }
+
+    .sub-card-2 {
+        width: 250px;
+    }
+
+    .get-app {
+        width: 250px;
+    }
+}
+
+/*RESPONSIVIDADE IPHONE 6/7/8*/
+@media (min-width: 363px) AND (max-width: 399px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-top: -20px;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 10px 0;
+
+    }
+
+    .sub-card {
+        width: 300px;
+    }
+
+    .sub-card-2 {
+        width: 300px;
+    }
+
+    .get-app {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+/*RESPONSIVIDADE IPHONE 6/7/8 PLUS*/
+@media (min-width: 414px) AND (max-width: 414px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-top: -20px;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 10px 0;
+
+    }
+
+    .sub-card {
+        width: 300px;
+    }
+
+    .sub-card-2 {
+        width: 300px;
+    }
+
+    .get-app {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+/*RESPONSIVIDADE SURFACE DUO*/
+@media (min-width: 519px) AND (max-width: 720px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-top: -20px;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 10px 0;
+
+    }
+
+    .sub-card {
+        width: 300px;
+    }
+
+    .sub-card-2 {
+        width: 300px;
+    }
+
+    .get-app {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+/*RESPONSIVIDADE GALAXY FOLD*/
+@media (min-width: 280px) AND (max-width: 280px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-left: 0;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .sub-card {
+        width: 250px;
+    }
+
+    .sub-card-2 {
+        width: 250px;
+    }
+
+    .get-app {
+        width: 250px;
+    }
+}
+
+/*RESPONSIVE MODE-MOBILE L */
+@media (min-width: 425px) AND (max-width: 425px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-top: -20px;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 10px 0;
+
+    }
+
+    .sub-card {
+        width: 300px;
+    }
+
+    .sub-card-2 {
+        width: 300px;
+    }
+
+    .get-app {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media (min-width: 723px) AND (max-width: 876px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-top: -20px;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 10px 0;
+
+    }
+
+    .sub-card {
+        width: 300px;
+    }
+
+    .sub-card-2 {
+        width: 300px;
+    }
+
+    .get-app {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media (min-width: 861px) AND (max-width: 861px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-top: -20px;
+        margin-right: 100px;
+    }
+
+    .get-app {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 420px) AND (max-width: 516px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-top: -20px;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 10px 0;
+
+    }
+
+    .sub-card {
+        width: 300px;
+    }
+
+    .sub-card-2 {
+        width: 300px;
+    }
+
+    .get-app {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+
+@media (min-width: 402px) AND (max-width: 417px) {
+    .image {
+        display: none;
+        visibility: none;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-top: -20px;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 10px 0;
+
+    }
+
+    .sub-card {
+        width: 300px;
+    }
+
+    .sub-card-2 {
+        width: 300px;
+    }
+
+    .get-app {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
